@@ -2,18 +2,14 @@
 
 ## 📌 Overview
 
-This repository contains the implementation of a deep learning-based brain tumor classification system using Magnetic Resonance Imaging (MRI) images.
+Brain tumor classification from Magnetic Resonance Imaging (MRI) scans is an important computer vision and medical imaging research problem. Accurate classification can support automated analysis of MRI images and assist researchers in developing computer-aided diagnostic systems.
 
-The project is designed to automatically classify brain MRI images into four categories:
+This project presents a deep learning-based approach for multi-class brain tumor image classification using a Convolutional Neural Network (CNN). The system processes MRI brain images and classifies them into four categories: **Glioma, Meningioma, No Tumor, and Pituitary**.
 
-* **Glioma**
-* **Meningioma**
-* **Pituitary**
-* **Normal**
+The implemented workflow includes image preprocessing, dataset preparation, CNN-based model training, validation, and performance evaluation using multiple metrics. The model evaluation reported an **accuracy of 95.31%**, **precision of 95.67%**, **recall of 95.31%**, **F1-score of 95.21%**, and **ROC-AUC of 98.61%**.
 
-A Convolutional Neural Network (CNN) based approach is implemented to learn relevant visual features from MRI images and perform multi-class classification.
+This repository provides the implementation and documentation required to reproduce and further develop the experimental work presented in the associated academic research project.
 
----
 
 ## 🎯 Objectives
 

@@ -43,20 +43,38 @@ The model classifies MRI images into four categories:
 
 ## 📊 Dataset
 
-The project uses a labeled MRI brain image dataset organized into four classes.
+The project uses a labeled MRI brain image dataset containing four classes:
 
-The dataset is divided into:
+* **Glioma**
+* **Meningioma**
+* **No Tumor**
+* **Pituitary**
 
-* **Training set:** 5,600 images
-* **Validation set:** 1,120 images
-* **Testing set:** 1,600 images
-* **Number of classes:** 4
+### Dataset Distribution
 
-The dataset is used for model training, validation, and final performance evaluation.
+The original dataset contains **7,200 images**:
 
-> **Note:** The dataset itself is not included in this repository. Users should obtain the dataset from the appropriate source and configure the dataset path before running the notebook.
+| Class          | Original Training Set | Testing Set |
+| -------------- | --------------------: | ----------: |
+| **Glioma**     |                 1,400 |         400 |
+| **Meningioma** |                 1,400 |         400 |
+| **No Tumor**   |                 1,400 |         400 |
+| **Pituitary**  |                 1,400 |         400 |
+| **Total**      |             **5,600** |   **1,600** |
 
----
+The original training set of **5,600 images** is further divided for model development:
+
+| Split          | Number of Images |
+| -------------- | ---------------: |
+| **Training**   |        **4,480** |
+| **Validation** |        **1,120** |
+| **Testing**    |        **1,600** |
+| **Total**      |        **7,200** |
+
+The dataset is used for model training, validation, and independent evaluation.
+
+> **Note:** The dataset itself is not included in this repository. Users should obtain the dataset from its appropriate source and configure the dataset path before running the notebook.
+
 
 ## 🔬 Methodology
 
